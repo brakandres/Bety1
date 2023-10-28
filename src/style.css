@@ -1,0 +1,66 @@
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+.slider-section {
+    display: flex;
+    padding-top: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+.slider-sectionp {
+    display: flex;
+    padding-top: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+body {
+    background-color: white;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #eeeeee;
+}
+.logo-container {
+    text-align: center;
+}
+.logo {
+    width: 200px; /* Ajusta el ancho según tus necesidades */
+    height: auto; /* Esto mantiene la proporción de la imagen */
+}
+h1 {
+    text-align: center;
+    height: 10px;
+}
+h2 {
+    text-align: center;
+    height: 50px;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    overflow: hidden;
+    width: 800px; /* Establece el ancho deseado para el slider */
+    height: 400px; /* Establece la altura deseada para el slider */
+    position: relative;
+}
+.swiper-button-next, .swiper-button-prev {
+    position: absolute;
+}
